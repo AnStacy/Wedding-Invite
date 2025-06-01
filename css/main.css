@@ -311,9 +311,9 @@
 
   .wedding-plan_decor-line {
     position: absolute;
-    top: 3430px;
+    top: 3500px;
     z-index: 0;
-    max-width: 390px;
+    max-width: 450px;
     height: auto;
   }
 }
