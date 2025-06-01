@@ -244,6 +244,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    padding: 0 30px;
 
     .wedding-plan_icon {
       width: 170px;
