@@ -310,6 +310,7 @@
     position: absolute;
     top: 3430px;
     z-index: 0;
+    max-width: 390px;
     height: auto;
   }
 }
