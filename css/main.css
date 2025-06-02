@@ -1,6 +1,7 @@
 .intro {
   position: relative;
-  height: 100%;
+  /* height: 100%; */
+  height: 650px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -13,6 +14,7 @@
     z-index: 0;
     display: block;
     width: 100%;
+    height: 100%;
     border: 0;
   }
 
@@ -154,8 +156,7 @@
   .invitation_decor-line-bottom {
     position: absolute;
     right: 0;
-    top: 720px;
-    z-index: 0;
+    top: 90%;
     width: 80px;
     height: auto;
   }
@@ -214,14 +215,15 @@
   .location_decor-line-bottom {
     position: absolute;
     left: 0;
-    top: 450px;
-    z-index: 0;
+    top: 85%;
     width: 60px;
     height: auto;
   }
 }
 
 .wedding-plan {
+  position: relative;
+
   .wedding-plan_title {
     padding: 60px 0 20px 0;
     text-align: center;
@@ -295,8 +297,8 @@
 
   .wedding-plan_decor-line {
     position: absolute;
-    top: 2910px;
-    z-index: 0;
+    top: 94%;
+    bottom: 0;
     max-width: 450px;
     height: auto;
   }
