@@ -23,7 +23,7 @@
 
     .intro_title {
       font-family: var(--primary-font-family);
-      font-size: 52px;
+      font-size: 45px;
       font-weight: 500;
       color: var(--header-text-color);
     }
@@ -34,11 +34,11 @@
       justify-content: center;
       font-family: var(--primary-font-family);
       color: var(--header-text-color);
-      gap: 5px;
+      gap: 40px;
       padding: 0 10px;
 
       .intro_month {
-        font-size: 50px;
+        font-size: 45px;
         position: relative;
         display: inline-block;
       }
@@ -62,12 +62,12 @@
       }
 
       .intro_day {
-        font-size: 70px;
+        font-size: 60px;
         letter-spacing: -5px;
       }
 
       .intro_year {
-        font-size: 36px;
+        font-size: 33px;
         position: relative;
         display: inline-block;
       }
@@ -98,22 +98,29 @@
   display: inline-block;
 
   .invitation_decor-line-top {
-    width: 180px;
+    width: 150px;
+  }
+
+  .invitation_quote {
+    text-align: center;
+    font-family: var(--font-base);
+    font-size: 24px;
   }
 
   .invitation_text {
-    padding: 25px 10px;
+    padding: 15px 15px;
     text-align: center;
     font-family: var(--font-base);
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 2px;
     line-height: 1.2;
+  }
 
-    .invitation_text_accent {
-      font-family: var(--primary-font-family);
-      font-size: 50px;
-      line-height: 0;
-    }
+  .invitation_date {
+    text-align: center;
+    padding: 0;
+    font-family: var(--primary-font-family);
+    font-size: 32px;
   }
 
   .invitation_photo-wrapper {
@@ -144,24 +151,10 @@
     }
   }
 
-  .invitation_names {
-    text-align: center;
-    padding: 15px 0 0 0;
-    font-family: var(--primary-font-family);
-    font-size: 50px;
-  }
-
-  .invitation_date {
-    text-align: center;
-    padding: 5px;
-    font-family: var(--primary-font-family);
-    font-size: 32px;
-  }
-
   .invitation_decor-line-bottom {
     position: absolute;
     right: 0;
-    top: 700px;
+    top: 720px;
     z-index: 0;
     width: 80px;
     height: auto;
@@ -172,19 +165,16 @@
   position: relative;
   display: inline-block;
 
-  .location_title {
-    padding: 100px 0 5px 0;
-    text-align: center;
-    font-family: var(--secondary-font-family);
-    font-size: 40px;
-  }
-
   .location_text {
     text-align: center;
-    padding: 0 25px;
+    padding: 20px 25px 0;
     font-family: var(--font-base);
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
+  }
+
+  .location_text span {
+    display: inline-block;
   }
 
   .location_map {
@@ -211,7 +201,7 @@
 
       .location_button-text {
         font-family: var(--font-base);
-        font-size: 20px;
+        font-size: 16px;
         color: var(--title-color);
       }
     }
@@ -224,7 +214,7 @@
   .location_decor-line-bottom {
     position: absolute;
     left: 0;
-    top: 570px;
+    top: 450px;
     z-index: 0;
     width: 60px;
     height: auto;
@@ -233,22 +223,21 @@
 
 .wedding-plan {
   .wedding-plan_title {
-    padding: 130px 0 20px 0;
+    padding: 60px 0 20px 0;
     text-align: center;
-    font-family: var(--secondary-font-family);
-    font-size: 40px;
+    font-family: var(--font-base);
+    font-size: 25px;
   }
 
   .wedding-plan_item {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
-    padding: 0 30px;
+    padding: 0 10px 10px;
 
     .wedding-plan_icon {
-      width: 170px;
-      height: 170px;
+      width: 120px;
+      height: 120px;
     }
 
     .wedding-plan_info {
@@ -256,22 +245,23 @@
       flex-direction: column;
       justify-content: center;
       text-align: center;
+      padding: 0 20px;
 
       .wedding-plan_time {
         font-family: var(--font-base);
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: 5px;
       }
 
       .wedding-plan_text {
         font-family: var(--font-base);
-        font-size: 24px;
+        font-size: 20px;
         letter-spacing: 2px;
       }
     }
 
     .wedding-plan_info-ceremony {
-      padding: 0 30px 0 0;
+      padding: 0 40px 0 0;
     }
   }
 
@@ -303,15 +293,9 @@
     }
   }
 
-  .wedding-plan_quote {
-    text-align: center;
-    font-family: var(--secondary-font-family);
-    font-size: 32px;
-  }
-
   .wedding-plan_decor-line {
     position: absolute;
-    top: 3500px;
+    top: 2910px;
     z-index: 0;
     max-width: 450px;
     height: auto;
@@ -319,59 +303,37 @@
 }
 
 .rsvp {
-  .rsvp_title {
-    padding: 150px 10px 20px 10px;
-    text-align: center;
-    font-family: var(--secondary-font-family);
-    font-size: 40px;
-  }
-
   .rsvp_description {
     text-align: center;
+    padding: 90px 20px 0;
     font-family: var(--font-base);
-    font-size: 20px;
-    padding: 0 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
   }
 
   .rsvp_contacts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 30px 30px;
+    padding: 30px 45px;
 
     .rsvp_contact {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      cursor: pointer;
-
       .rsvp_name {
         font-family: var(--primary-font-family);
-        font-size: 38px;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        font-size: 35px;
+        text-align: center;
       }
 
-      .rsvp_number {
-        font-family: var(--font-base);
-        font-size: 20px;
-        color: var(--title-color);
-        text-decoration: none;
-        position: relative;
-        padding-top: 35px;
+      .rsvp_links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        .rsvp_links_icon {
+          width: 55px;
+          height: 55px;
+        }
       }
-    }
-
-    .rsvp_contact.right {
-      align-items: flex-end;
-    }
-
-    .rsvp_contact.left {
-      align-items: flex-start;
     }
   }
 
