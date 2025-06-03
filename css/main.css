@@ -205,7 +205,7 @@
       text-decoration: none;
       transition: 0.3s ease;
       width: 210px;
-      box-shadow: -4px 6px 12px rgba(0, 0, 0, 0.414);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.3);
 
       .location_button-text {
         font-family: var(--font-base);
@@ -350,7 +350,9 @@
             border: 1.5px solid #000;
             border-radius: 15px;
             padding: 5px;
-            box-shadow: -2px 4px 9px rgba(0, 0, 0, 0.414);
+            /* box-shadow: -2px 4px 9px rgba(0, 0, 0, 0.414); */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+              0 6px 10px rgba(0, 0, 0, 0.3);
           }
         }
       }
